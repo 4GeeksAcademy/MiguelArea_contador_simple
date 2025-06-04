@@ -1,11 +1,27 @@
-/* 
+.digit-box {
+  background-color: #1a1a1a;
+  color: white;
+  font-size: 3rem;
+  width: 60px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  margin: 0 5px;
+  box-shadow: inset 0 -4px 8px rgba(255, 255, 255, 0.1);
+  font-family: 'Courier New', Courier, monospace;
+}
+.counter-container {
+  background-color: #000;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+  width: 80%;
+  margin: 30px auto; /* centra horizontalmente */
+  border-radius: 10px;
+}

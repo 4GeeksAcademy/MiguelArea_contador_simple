@@ -1,18 +1,13 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
-//Bootstrap
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap"
-
-// index.css'
-import '../styles/index.css'
-
-// components
+// Componentes
 import Home from './components/Home';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Home/>
-  </React.StrictMode>,
-)
+// Bootstrap y FontAwesome
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap";
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<Home />);
